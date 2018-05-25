@@ -108,3 +108,7 @@ Route::get('/verify-member-blank', function () {
 Route::get('/verify-member-not-found', function () {
     return view('admin.verify-member-not-found');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
