@@ -72,6 +72,9 @@ Route::group(['prefix' => 'admin'], function() {
 
     Route::get('/cari-permohonan-peminjaman', 'AdminController@cariPermohonanPeminjaman');
 
+    Route::get('denda', 'AdminController@denda_index');
+    Route::post('denda', 'AdminController@denda');
+
     Route::get('/manage-loans-ditolak', function () {
         return view('admin.manage-loans-ditolak');
     });
