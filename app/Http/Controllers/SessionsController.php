@@ -27,6 +27,9 @@ class SessionsController extends Controller
         if(request('email') == "admin@mail.com"){
           return redirect('/admin');
         }
+        else if(request('email') == "pustakawan@mail.com"){
+            return redirect('/pustakawan');
+        }
         else{
           return redirect('/');
         }

@@ -60,7 +60,7 @@ class AdminController extends Controller
     {
         $data['peminjamans'] = Peminjaman::join('users', 'users.id', '=', 'peminjamen.user_id')
             ->join('books', 'books.id', '=', 'peminjamen.book_id')
-            ->select('users.nrp', 
+            ->select('users.nrp',
                 'users.name as username',
                 'users.jurusan as userjurusan',
                 'users.email as useremail',

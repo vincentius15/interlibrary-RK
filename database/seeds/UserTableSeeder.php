@@ -73,5 +73,38 @@ class UserTableSeeder extends Seeder
         $user->password = bcrypt('vincent15');
         $user->save();
         $user->roles()->attach($roleUser);
+
+        // $user = new User();
+        // $user->nrp = '5115100086';
+        // $user->name = 'Vincent';
+        // $user->jurusan = 'Informatika';
+        // $user->no_telp = '0258779965428';
+        // $user->alamat = 'ITS';
+        // $user->email = 'admin@mail.com';
+        // $user->password = bcrypt('admin123');
+        // $user->save();
+        // $user->roles()->attach($roleUser);
+
+        $user = new User();
+        $user->nrp = '5115100079';
+        $user->name = 'Vincent';
+        $user->jurusan = 'Informatika';
+        $user->no_telp = '0258779965428';
+        $user->alamat = 'ITS';
+        $user->email = 'pustakawan@mail.com';
+        $user->password = bcrypt('pustakawan123');
+        $user->save();
+        $user->roles()->attach($roleUser);
+
+        $user = new User();
+        $user->nrp = '5115100074';
+        $user->name = 'Vincent';
+        $user->jurusan = 'Informatika';
+        $user->no_telp = '0258779965428';
+        $user->alamat = 'ITS';
+        $user->email = 'user@mail.com';
+        $user->password = bcrypt('user123');
+        $user->save();
+        $user->roles()->attach($roleUser);
     }
 }
