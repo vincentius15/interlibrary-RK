@@ -27,22 +27,27 @@
                     </article>
                   </a>
                 </li>
-                <div style="padding-left: 11em;">
-                    <li class="one_third first" style="margin-right: 5em;">
-                      <a href="/admin/loans-request">
-                        <article class="infobox" style="width: 306px;">
-                            <h6 class="heading" style="text-align: center; margin-bottom: 0px;">Kelola Permohonan Peminjaman</h6>
-                        </article>
-                      </a>
-                    </li>
-                    <li class="one_third">
-                      <a href="/admin/manage-loans">
-                        <article class="infobox" style="height: 110px;padding-top: 43px;">
-                            <h6 class="heading" style="text-align: center;">Kelola Peminjaman</h6>
-                        </article>
-                      </a>
-                    </li>
-                </div>
+                <li class="one_third first">
+                  <a href="/admin/loans-request" class="infobox">
+                    <article >
+                        <h6 class="heading" style="text-align: center; margin-bottom: 0px">Kelola Permohonan Peminjaman</h6>
+                    </article>
+                  </a>
+                </li>
+                <li class="one_third">
+                  <a href="/admin/manage-loans">
+                    <article class="infobox" style="height: 110px;padding-top: 43px;">
+                        <h6 class="heading" style="text-align: center;">Kelola Peminjaman</h6>
+                    </article>
+                  </a>
+                </li>
+                <li class="one_third">
+                  <a href="/admin/denda">
+                    <article class="infobox" style="height: 110px;padding-top: 43px;">
+                        <h6 class="heading" style="text-align: center;">Kelola Denda</h6>
+                    </article>
+                  </a>
+                </li>
             </ul>
             <div class="clear"></div>
         </section>
