@@ -76,6 +76,10 @@
                             <div class="atribut"> <strong> Edisi </strong> </div>
                             <div class="value" style="background-color: #ecf0f1">  1  </div>
                         </div>
+                        <div class="group" style="margin: 0px; margin-bottom: 20px; padding: 0px; width: 380px;">
+                            <div class="atribut"> <strong> Kategori </strong> </div>
+                            <div class="value" style="background-color: #ecf0f1">  Pemrograman  </div>
+                        </div>
                         <br>
                         <div class="group" style="margin: 0px; padding: 0px; width: 380px;">
                             <div class="atribut"> <strong> Sinopsis </strong> </div>

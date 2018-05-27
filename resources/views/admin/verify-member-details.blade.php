@@ -48,7 +48,7 @@
                     {{--Text Column--}}
                     <div class="col-lg-5" style="margin: 30px auto; padding: 0px;">
                         <div class="group" style="margin: 0px; margin-bottom: 20px; padding: 0px; width: 380px;">
-                            <div class="atribut"> <strong> NRP </strong> </div>
+                            <div class="atribut"> <strong> NRP/NIP </strong> </div>
                             <div class="value" style="background-color: #ecf0f1">  5115100101 </div>
                         </div>
                         <div class="group" style="margin: 0px; margin-bottom: 20px; padding: 0px; width: 380px;">
@@ -58,6 +58,10 @@
                         <div class="group" style="margin: 0px; margin-bottom: 20px; padding: 0px; width: 380px;">
                             <div class="atribut"> <strong> Jurusan </strong> </div>
                             <div class="value" style="background-color: #ecf0f1"> Teknik Informatika  </div>
+                        </div>
+                        <div class="group" style="margin: 0px; margin-bottom: 20px; padding: 0px; width: 380px;">
+                            <div class="atribut"> <strong> Role </strong> </div>
+                            <div class="value" style="background-color: #ecf0f1"> User  </div>
                         </div>
                         <div class="group" style="margin: 0px; margin-bottom: 20px; padding: 0px; width: 380px;">
                             <div class="atribut"> <strong> Tanggal Lahir </strong> </div>

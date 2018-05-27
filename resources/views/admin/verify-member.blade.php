@@ -41,6 +41,28 @@
                             <p class="font-x1 topspace-5 btmspace-10"><strong>Aditya Pratama</strong></p>
                             <p class="font-x1 topspace-10 btmspace-10">5115100101</p>
                             <p class="font-x1 topspace-10 btmspace-10">Teknik Informatika</p>
+                            <p class="font-x1 topspace-10 btmspace-10">User</p>
+                        </div>
+                        <div class="control-button rightspace-10">
+                            <a data-toggle="modal" data-target="#terima" class="btn btn-green btmspace-10" href="#">Terima</a>
+                            <a data-toggle="modal" data-target="#tolak" class="btn btn-red" href="#">Tolak</a>
+                        </div>
+                        <div class="control-button rightspace-10">
+                            <a class="btn btn-yellow" href="/admin/verify-member-detail">Detil</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group btmspace-20 demo">
+                    <div class="full first">
+                        <div class="book-thumbnail auto first">
+                            <img class="imglist inspace-5" src="{{asset('img/demo/profile.jpg')}}" alt="">
+                        </div>
+                        <div class="leftspace-30 member-request-description">
+                            <p class="font-x1 topspace-5 btmspace-10"><strong>Joko Susanto</strong></p>
+                            <p class="font-x1 topspace-10 btmspace-10">559900001124</p>
+                            <p class="font-x1 topspace-10 btmspace-10">Teknik Industri</p>
+                            <p class="font-x1 topspace-10 btmspace-10">Pustakawan</p>
                         </div>
                         <div class="control-button rightspace-10">
                             <a data-toggle="modal" data-target="#terima" class="btn btn-green btmspace-10" href="#">Terima</a>

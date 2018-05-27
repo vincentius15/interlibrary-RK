@@ -109,6 +109,12 @@ Route::get('/verify-member-not-found', function () {
     return view('admin.verify-member-not-found');
 });
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/pustakawan', 'PustakawanController@index');
+
+Route::get('/pustakawan/manage-loans', 'PustakawanController@manageLoans');
+
+Route::get('/pustakawan/loans-request', 'PustakawanController@loansRequest');

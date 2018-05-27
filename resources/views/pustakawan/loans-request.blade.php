@@ -70,9 +70,9 @@
                             <img class="imglist inspace-5" src="{{asset('img/demo/profile.jpg')}}" alt="">
                         </div>
                         <div class="member-request-description">
-                            <a href="/admin/member-details" class="topspace-5 btmspace-5"><strong>Nafi Pujdiastuti</strong></a>
-                              <p class="topspace-5 btmspace-5">3114100111</p>
-                              <p class="topspace-5 btmspace-5">Teknik Lingkungan</p>
+                            <a href="/admin/member-details" class="topspace-5 btmspace-5"><strong>Azka Yasin</strong></a>
+                              <p class="topspace-5 btmspace-5">5115100031</p>
+                              <p class="topspace-5 btmspace-5">Teknik Informatika</p>
                         </div>
                         <div class="control-button rightspace-10">
                             <a data-toggle="modal" data-target="#terima" class="btn btn-green btmspace-10" href="#">Terima</a>

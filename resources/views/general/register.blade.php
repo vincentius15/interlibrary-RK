@@ -49,7 +49,7 @@
                 </div>
 
                 <form action="" style="margin-left: 60px; margin-right: 60px;" id="form-register" onsubmit="return cekKonfirmasiPassword();">
-                    <p><strong>NRP</strong></p>
+                    <p><strong>NRP/NIP</strong></p>
                     <input class="form-control no-spinners" style="width: 380px; height: 2.5em;" type="number" min="10000000000000" max="10000000000000" name="nrp" id="nrp" required placeholder="NRP"><br>
                     <p><strong>Nama</strong></p>
                     <input class="form-control" style="width: 380px; height: 2.5em;" type="text" name="nama" id="nama" required placeholder="Nama"><br>
@@ -59,8 +59,12 @@
                         <option value="2">Sistem Informasi</option>
                         <option value="3">Dsb</option>
                     </select><br>
-
-
+                    <p><strong>Role</strong></p>
+                    <select class="form-control" class="form-control" name="status" style="width: 380px; height: 2.5em;" required>
+                        <option value="1">User</option>
+                        <option value="2">Pustakawan</option>
+                        <option value="3">Admin</option>
+                    </select><br>
                     <p><strong>Tanggal lahir</strong></p>
                     <input class="form-control" type="date" name="date" style="width: 380px; height: 2.5em;" class="form-control form" required><br>
 
