@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\User;
+use App\Peminjaman;
 
 class AdminController extends Controller
 {
@@ -53,6 +54,27 @@ class AdminController extends Controller
         $users = User::where('name', '!=', 'admin')->get();
 
         return view('admin.list-member', compact('users'));
+    }
+
+    public function denda_index()
+    {
+        $data['peminjamans'] = Peminjaman::join('users', 'users.id', '=', 'peminjamen.user_id')
+            ->join('books', 'books.id', '=', 'peminjamen.book_id')
+            ->select('users.nrp', 
+                'users.name as username',
+                'users.jurusan as userjurusan',
+                'users.email as useremail',
+                'users.no_telp as userno_telp',
+                'peminjamen.*',
+                'books.*')
+            ->where('denda', '!=', '0')
+            ->get();
+        return view('admin.denda', $data);
+    }
+
+    public function denda(Request $request)
+    {
+        return $this->denda_index();
     }
 
     public function editMember()
