@@ -16,6 +16,8 @@
               @if(Auth::check())
                 @if(Auth::user()->name == 'admin')
                   <h1><a href="/admin">InterLibrary</a></h1>
+                @elseif(Auth::user()->email == 'pustakawan@mail.com')
+                    <h1><a href="/pustakawan">InterLibrary</a></h1>
                 @else
                   <h1><a href="/">InterLibrary</a></h1>
                 @endif
@@ -31,7 +33,7 @@
                     </ul>
                 @else
                     <ul class="clear">
-                        @if(Auth::user()->name == 'admin')
+                        @if(Auth::user()->name == 'admin' or Auth::user()->email == 'pustakawan@mail.com')
                             <li><p>Halo, {{ Auth::user()->name }}</p></li>
                         @else
                             <li><p>Halo, {{ Auth::user()->name }}</p></li>

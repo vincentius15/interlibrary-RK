@@ -87,7 +87,7 @@ class UserTableSeeder extends Seeder
 
         $user = new User();
         $user->nrp = '5115100079';
-        $user->name = 'Vincent';
+        $user->name = 'pustakawan';
         $user->jurusan = 'Informatika';
         $user->no_telp = '0258779965428';
         $user->alamat = 'ITS';
@@ -98,7 +98,7 @@ class UserTableSeeder extends Seeder
 
         $user = new User();
         $user->nrp = '5115100074';
-        $user->name = 'Vincent';
+        $user->name = 'user';
         $user->jurusan = 'Informatika';
         $user->no_telp = '0258779965428';
         $user->alamat = 'ITS';

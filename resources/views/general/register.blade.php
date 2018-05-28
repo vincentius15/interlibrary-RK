@@ -50,7 +50,7 @@
 
                 <form action="" style="margin-left: 60px; margin-right: 60px;" id="form-register" onsubmit="return cekKonfirmasiPassword();">
                     <p><strong>NRP/NIP</strong></p>
-                    <input class="form-control no-spinners" style="width: 380px; height: 2.5em;" type="number" min="10000000000000" max="10000000000000" name="nrp" id="nrp" required placeholder="NRP"><br>
+                    <input class="form-control no-spinners" style="width: 380px; height: 2.5em;" type="number" min="10000000000000" max="10000000000000" name="nrp" id="nrp" required placeholder="NRP/NIP"><br>
                     <p><strong>Nama</strong></p>
                     <input class="form-control" style="width: 380px; height: 2.5em;" type="text" name="nama" id="nama" required placeholder="Nama"><br>
                     <p><strong>Jurusan</strong></p>
