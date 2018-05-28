@@ -25,38 +25,39 @@
                     {{--Attribut Column--}}
                     <form action="" class="col-lg-12" style="margin: 0px auto; padding: 30px;">
                       <div class="atribut col-lg-6 row" style="margin-bottom: 20px;">
-                        <p><strong>Aturan mahasiswa</strong></p><br>
+
+
                         <div class="atribut col-lg-12" style="margin-bottom: 20px;">
-                            <div class="col-lg-12">Jangka waktu peminjaman (hari)
+                          <p><strong>Aturan mahasiswa</strong></p><br>
+                            Jangka waktu peminjaman (hari)
                             <input style="border-radius: 0px" type="text" name="date" placeholder="Jumlah hari"class="form-control form" value="5" required>
-                            </div>
+
                         </div>
 
                         <div class="atribut col-lg-12" style="margin-bottom: 20px;">
-                            <div class="col-lg-12">Denda keterlambatan per hari (Rupiah)
+                          Denda keterlambatan per hari (Rupiah)
                               <input style="border-radius: 0px;" type="text" name="date" placeholder="Dalam rupiah"class="form-control form" value="5000" required>
-                            </div>
-
                         </div>
 
 
                       </div>
                       <div class="atribut col-lg-6 row" style="margin-bottom: 20px;">
-                        <p><strong>Aturan dosen/karyawan</strong></p><br>
+
                         <div class="atribut col-lg-12" style="margin-bottom: 20px;">
-                            <div class="col-lg-12">Jangka waktu peminjaman (hari)
+                          <p><strong>Aturan dosen/karyawan</strong></p><br>
+                            Jangka waktu peminjaman (hari)
                             <input style="border-radius: 0px" type="text" name="date" placeholder="Jumlah hari"class="form-control form" value="30" required>
-                            </div>
+
                         </div>
 
                         <div class="atribut col-lg-12" style="margin-bottom: 20px;">
-                            <div class="col-lg-12">Denda keterlambatan per hari (Rupiah)
+                            Denda keterlambatan per hari (Rupiah)
                               <input style="border-radius: 0px;" type="text" name="date" placeholder="Dalam rupiah"class="form-control form" value="0" required>
-                            </div>
+
 
                         </div>
                       </div>
-                      <div class="atribut col-lg-12 row" style="margin-right: 70px; float: right;">
+                      <div class="atribut col-lg-12 row" style="margin-right: 60px; float: right;">
                           <input class="btn btn-green pull-right" type="submit" value="Simpan">
 
                       </div>
