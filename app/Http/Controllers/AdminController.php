@@ -144,6 +144,11 @@ class AdminController extends Controller
         return view('admin.member-details');
     }
 
+    public function administrasi()
+    {
+        return view('admin.administrasi');
+    }
+
     public function cariPermohonanMember(Request $request)
     {
         $nama = request(['search']);

@@ -48,6 +48,13 @@
                     </article>
                   </a>
                 </li>
+                <li class="one_third" style="margin-top: 3em;">
+                  <a href="/admin/administrasi">
+                    <article class="infobox" style="height: 110px;padding-top: 20px;">
+                        <h6 class="heading" style="text-align: center;">Kelola Aturan Administrasi</h6>
+                    </article>
+                  </a>
+                </li>
             </ul>
             <div class="clear"></div>
         </section>

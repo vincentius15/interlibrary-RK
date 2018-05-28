@@ -72,6 +72,8 @@ Route::group(['prefix' => 'admin'], function() {
 
     Route::get('/cari-permohonan-peminjaman', 'AdminController@cariPermohonanPeminjaman');
 
+    Route::get('/administrasi', 'AdminController@administrasi');
+
     Route::get('denda', 'AdminController@denda_index');
     Route::post('denda', 'AdminController@denda');
 
