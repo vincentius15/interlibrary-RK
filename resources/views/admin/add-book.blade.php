@@ -69,9 +69,15 @@
                             </div> <br>
                             <div class="group" style="padding: 0px; margin: 0px;">
                                 <div style="float: left; background-color: #7f8c8d; color: white; margin: 0px; padding: 5px; padding-left: 10px; height: 35px; width: 105px;">
-                                    <strong>Edisi</strong>
+                                    <strong>Jumlah Copy</strong>
                                 </div>
-                                <input class="form-control" style="width: 275px; height: 2.5em; float: left; margin:0px; border-radius:0px;" type="text" name="edisi" id="edisi" required placeholder="Edisi-ke">
+                                <input class="form-control" style="width: 275px; height: 2.5em; float: left; margin:0px; border-radius:0px;" type="text" name="edisi" id="edisi" required placeholder="Jumlah copy tersedia">
+                            </div> <br>
+                            <div class="group" style="padding: 0px; margin: 0px;">
+                                <div style="float: left; background-color: #7f8c8d; color: white; margin: 0px; padding: 5px; padding-left: 10px; height: 35px; width: 105px;">
+                                    <strong>Kategori</strong>
+                                </div>
+                                <input class="form-control" style="width: 275px; height: 2.5em; float: left; margin:0px; border-radius:0px;" type="text" name="edisi" id="edisi" required placeholder="Ketegori buku">
                             </div> <br>
                             <br>
                             <div class="group" style="padding: 0px; margin: 0px;">
