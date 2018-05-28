@@ -95,7 +95,8 @@ class AdminController extends Controller
                     'isbn' => '978-0984782857',
                     'tahun' => '2015',
                     'penerbit' => 'Amazon Books',
-                    'edisi' => '1'
+                    'edisi' => '3',
+                    'kategori' => 'Buku pendamping kuliah'
                 ]
             ];
         }else{
@@ -107,7 +108,8 @@ class AdminController extends Controller
                     'isbn' => '978-0984782858',
                     'tahun' => '2013',
                     'penerbit' => 'Stangstung Books',
-                    'edisi' => '1'
+                    'edisi' => '4',
+                    'kategori' => 'Majalah'
                 ]
             ];
         }
