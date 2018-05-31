@@ -29,8 +29,14 @@
 
                         <div class="atribut col-lg-12" style="margin-bottom: 20px;">
                           <p><strong>Aturan mahasiswa</strong></p><br>
-                            Jangka waktu peminjaman (hari)
+                            Jangka waktu peminjaman buku/majalah (hari)
                             <input style="border-radius: 0px" type="text" name="date" placeholder="Jumlah hari"class="form-control form" value="5" required>
+
+                        </div>
+
+                        <div class="atribut col-lg-12" style="margin-bottom: 20px;">
+                            Jangka waktu peminjaman Tugas Akhir/tesis (hari)
+                            <input style="border-radius: 0px" type="text" name="date" placeholder="Jumlah hari"class="form-control form" value="0" required>
 
                         </div>
 
@@ -45,8 +51,14 @@
 
                         <div class="atribut col-lg-12" style="margin-bottom: 20px;">
                           <p><strong>Aturan dosen/karyawan</strong></p><br>
-                            Jangka waktu peminjaman (hari)
+                            Jangka waktu peminjaman buku/majalah (hari)
                             <input style="border-radius: 0px" type="text" name="date" placeholder="Jumlah hari"class="form-control form" value="30" required>
+
+                        </div>
+
+                        <div class="atribut col-lg-12" style="margin-bottom: 20px;">
+                            Jangka waktu peminjaman Tugas Akhir/tesis (hari)
+                            <input style="border-radius: 0px" type="text" name="date" placeholder="Jumlah hari"class="form-control form" value="5" required>
 
                         </div>
 
